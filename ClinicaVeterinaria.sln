@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicaVeterinaria.Web", "ClinicaVeterinaria.Web\ClinicaVeterinaria.Web.csproj", "{F07E709B-870C-417C-8A11-4C80E0B43CC5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAO", "DAO", "{1294F2EC-AFB5-467B-8D96-1F22F0D844C8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dominio", "Dominio", "{09D1C4DA-1CDE-4254-958E-012B68145F40}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repositorios", "Repositorios", "{9CF8392B-FF13-4A5C-9058-D53348EC9E5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicaVeterinaria.Comum.Entity", "ClinicaVeterinaria.Comum.Entity\ClinicaVeterinaria.Comum.Entity.csproj", "{79367C58-448E-47C6-9CD6-D5C3566F7925}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicaVeterinaria.DAO.Entity", "ClinicaVeterinaria.DAO.Entity\ClinicaVeterinaria.DAO.Entity.csproj", "{97FEAD61-81D2-418F-BB0B-571C08C9F74C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicaVeterinaria.Dominio", "ClinicaVeterinaria.Dominio\ClinicaVeterinaria.Dominio.csproj", "{F75EF042-1A28-49FE-99D7-3556B544182D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicaVeterinaria.Veterinaria.Repositorios.Entity", "ClinicaVeterinaria.Veterinaria.Repositorios.Entity\ClinicaVeterinaria.Veterinaria.Repositorios.Entity.csproj", "{22A0BF4E-C637-4B78-B8AA-700A5AC34C28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicaVeterinaria.Repositorios.Comum", "ClinicaVeterinaria.Repositorios.Comum\ClinicaVeterinaria.Repositorios.Comum.csproj", "{70576647-9710-490A-9387-8202D9675B28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicaVeterinaria.Repositorios.Comum.Entity", "ClinicaVeterinaria.Repositorios.Comum.Entity\ClinicaVeterinaria.Repositorios.Comum.Entity.csproj", "{878D08BB-03DF-4CB4-A8AF-7E848F9CE8BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F07E709B-870C-417C-8A11-4C80E0B43CC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F07E709B-870C-417C-8A11-4C80E0B43CC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F07E709B-870C-417C-8A11-4C80E0B43CC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F07E709B-870C-417C-8A11-4C80E0B43CC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79367C58-448E-47C6-9CD6-D5C3566F7925}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79367C58-448E-47C6-9CD6-D5C3566F7925}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79367C58-448E-47C6-9CD6-D5C3566F7925}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79367C58-448E-47C6-9CD6-D5C3566F7925}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97FEAD61-81D2-418F-BB0B-571C08C9F74C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97FEAD61-81D2-418F-BB0B-571C08C9F74C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97FEAD61-81D2-418F-BB0B-571C08C9F74C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97FEAD61-81D2-418F-BB0B-571C08C9F74C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F75EF042-1A28-49FE-99D7-3556B544182D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F75EF042-1A28-49FE-99D7-3556B544182D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F75EF042-1A28-49FE-99D7-3556B544182D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F75EF042-1A28-49FE-99D7-3556B544182D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22A0BF4E-C637-4B78-B8AA-700A5AC34C28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22A0BF4E-C637-4B78-B8AA-700A5AC34C28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22A0BF4E-C637-4B78-B8AA-700A5AC34C28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22A0BF4E-C637-4B78-B8AA-700A5AC34C28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70576647-9710-490A-9387-8202D9675B28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70576647-9710-490A-9387-8202D9675B28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70576647-9710-490A-9387-8202D9675B28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70576647-9710-490A-9387-8202D9675B28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{878D08BB-03DF-4CB4-A8AF-7E848F9CE8BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{878D08BB-03DF-4CB4-A8AF-7E848F9CE8BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{878D08BB-03DF-4CB4-A8AF-7E848F9CE8BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{878D08BB-03DF-4CB4-A8AF-7E848F9CE8BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{79367C58-448E-47C6-9CD6-D5C3566F7925} = {1294F2EC-AFB5-467B-8D96-1F22F0D844C8}
+		{97FEAD61-81D2-418F-BB0B-571C08C9F74C} = {1294F2EC-AFB5-467B-8D96-1F22F0D844C8}
+		{F75EF042-1A28-49FE-99D7-3556B544182D} = {09D1C4DA-1CDE-4254-958E-012B68145F40}
+		{22A0BF4E-C637-4B78-B8AA-700A5AC34C28} = {9CF8392B-FF13-4A5C-9058-D53348EC9E5A}
+		{70576647-9710-490A-9387-8202D9675B28} = {9CF8392B-FF13-4A5C-9058-D53348EC9E5A}
+		{878D08BB-03DF-4CB4-A8AF-7E848F9CE8BC} = {9CF8392B-FF13-4A5C-9058-D53348EC9E5A}
+	EndGlobalSection
+EndGlobal
